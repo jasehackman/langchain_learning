@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "langchain-learning"
+version = "0.1.0"
+description = ""
+authors = ["Jase Hackman <jase.hackman@zapier.com>"]
+readme = "README.md"
+packages = [{include = "langchain_learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.4"
+langchain = "^0.0.139"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
